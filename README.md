@@ -1,14 +1,14 @@
 # WSL-set-up
 
 #Check what we have
-cat /etc/debian_version
-echo $0
-apt list --installed
+```cat /etc/debian_version```
+```echo $0```
+```apt list --installed```
 
 # Get VIM
-sudo apt-get update
-sudo apt-get upgrade --fix-missing
-sudo apt install vim
+```sudo apt-get update```
+```sudo apt-get upgrade --fix-missing```
+```sudo apt install vim```
 
 # Upgrade to Debian 10 Buster
 sudo vim  /etc/apt/sources.list # change all references to stretch to buster
